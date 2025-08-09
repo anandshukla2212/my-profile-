@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Video with Button</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 0;
+    }
+
+    .video-container {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Beautiful button styling */
+    .cta {
+      display: inline-block;
+      margin: 20px auto;
+      padding: 14px 28px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      background: linear-gradient(90deg, #7c3aed, #06b6d4);
+      border-radius: 50px;
+      box-shadow: 0 8px 20px rgba(124,58,237,0.3);
+      transition: all 0.3s ease;
+    }
+
+    .cta:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 30px rgba(6,182,212,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌟 Welcome to My Video Page 🌟</h1>
+
+  <!-- Video section -->
+  <div class="video-container">
+    <video autoplay muted loop>
+      <source src="VEDIO.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+
+  <!-- Button below video -->
+  <a href="https://anandshukla2212.github.io/AI-Resume-Cover-Letter-Generator-BY-ANAND-SHUKLA/" target="_blank" class="cta"> MY PROJECT 1 ➜</a>
+  <a href="https://anandshukla2212.github.io/MOBILE-PROJECT-ANAND-GARG/" target="_blank" class="cta">my project 2 ➜</a>
+
+</body>
+</html>

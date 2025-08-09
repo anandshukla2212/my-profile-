@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>6 Stylish Images with Captions</title>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #f5f5f5;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+        color: #333;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .gallery-item {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-item:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .caption {
+        padding: 15px;
+        font-size: 16px;
+        font-weight: 500;
+        background: linear-gradient(to right, #ffecd2, #fcb69f);
+    }
+</style>
+</head>
+<body>
+
+<h1>📸 OUR CERTIFICATES</h1>
+
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="WhatsApp Image 2025-08-09 at 14.05.16_f4d35e5d.jpg" alt="Image 1">
+        <div class="caption">🌄 Effective Leadership</div>
+    </div>
+    <div class="gallery-item">
+        <img src="WhatsApp Image 2025-08-09 at 14.05.17_6497e023.jpg" alt="Image 2">
+        <div class="caption"> DATA SCIENCE AND ANALYTIC</div>
+    </div>
+    <div class="gallery-item">
+        <img src="WhatsApp Image 2025-08-09 at 14.05.17_dd7214ea.jpg" alt="Image 3">
+        <div class="caption">RESUNE Writing AND JOB Interviewing</div>
+    </div>
+    <div class="gallery-item">
+        <img src="WhatsApp Image 2025-08-09 at 14.05.18_5c68ff59.jpg" alt="Image 4">
+        <div class="caption">Business EMAIL</div>
+    </div>
+    <div class="gallery-item">
+        <img src="WhatsApp Image 2025-08-09 at 14.06.41_e8bdb494.jpg" alt="Image 5">
+        <div class="caption">AI FOR Beginners</div>
+    </div>
+    <div class="gallery-item">
+        <img src="WhatsApp Image 2025-08-09 at 14.07.00_2bee2c36.jpg" alt="Image 6">
+        <div class="caption">HTml AND CSS BOOTSCAMP</div>
+    </div>
+</div>
+
+</body>
+</html>
