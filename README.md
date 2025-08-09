@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>My Profile - Anand Shukla</title>
+
 <style>
   /* Page reset */
   body, html {
